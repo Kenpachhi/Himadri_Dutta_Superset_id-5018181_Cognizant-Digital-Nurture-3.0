@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Registration Success</title>
+</head>
+<body>
+    <h1>Registration Successful!</h1>
+    <p>Customer Details:</p>
+    <ul>
+        <li>ID: <span th:text="${customer.id}"></span></li>
+        <li>Name: <span th:text="${customer.name}"></span></li>
+        <li>Email: <span th:text="${customer.email}"></span></li>
+        <li>Address: <span th:text="${customer.address}"></span></li>
+    </ul>
+</body>
+</html>
